@@ -6,6 +6,10 @@ const nextConfig = {
 				protocol: "https",
 				hostname: "tailwindui.com",
 			},
+			{
+				protocol: "https",
+				hostname: "assets.aceternity.com",
+			},
 		],
 		dangerouslyAllowSVG: true,
 	},
