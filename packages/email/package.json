@@ -3,8 +3,9 @@
 	"version": "0.0.34",
 	"private": true,
 	"scripts": {
-		"build": "email build -p 3101",
 		"dev": "email dev -p 3101",
+		"build": "email dev -p 3101",
+		"start": "email dev -p 3101",
 		"export": "email export",
 		"clean": "rm -rf .turbo .next"
 	},

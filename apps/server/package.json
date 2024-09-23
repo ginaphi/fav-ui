@@ -1,0 +1,19 @@
+{
+	"name": "server",
+	"scripts": {
+		"dev": "tsx watch src/index.ts -p 3102",
+		"start": "tsx src/index.ts -p 3102",
+		"lint": "eslint src --ext .ts",
+		"clean": "rm -rf .turbo .next"
+	},
+	"dependencies": {
+		"@hono/node-server": "^1.13.1",
+		"hono": "^4.6.2"
+	},
+	"devDependencies": {
+		"@repo/eslint-config": "*",
+		"@repo/typescript-config": "*",
+		"@types/node": "^20.11.17",
+		"tsx": "^4.7.1"
+	}
+}

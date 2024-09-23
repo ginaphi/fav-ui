@@ -13,6 +13,11 @@
 		"dev": {
 			"cache": false,
 			"persistent": true
+		},
+		"start": {
+			"dependsOn": ["^start"],
+			"inputs": [".env*"],
+			"cache": true
 		}
 	}
 }
