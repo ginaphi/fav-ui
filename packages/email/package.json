@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "email dev -p 3101",
 		"build": "email build ",
-		"start": "email start ",
+		"start": "email start -p 3101",
 		"export": "email export",
 		"clean": "rm -rf .turbo .next .react-email"
 	},
