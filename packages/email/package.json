@@ -1,0 +1,23 @@
+{
+	"name": "@repo/email",
+	"version": "0.0.34",
+	"private": true,
+	"scripts": {
+		"build": "email build -p 3101",
+		"dev": "email dev -p 3101",
+		"export": "email export",
+		"clean": "rm -rf .turbo .next"
+	},
+	"dependencies": {
+		"@react-email/components": "0.0.25",
+		"react-email": "3.0.1",
+		"react-dom": "18.3.1",
+		"react": "18.3.1"
+	},
+	"devDependencies": {
+		"@repo/eslint-config": "*",
+		"@repo/typescript-config": "*",
+		"@types/react": "18.3.4",
+		"@types/react-dom": "18.3.0"
+	}
+}
