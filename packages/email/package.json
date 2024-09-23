@@ -4,8 +4,8 @@
 	"private": true,
 	"scripts": {
 		"dev": "email dev -p 3101",
-		"build": "email dev -p 3101",
-		"start": "email dev -p 3101",
+		"build": "email build ",
+		"start": "email start ",
 		"export": "email export",
 		"clean": "rm -rf .turbo .next .react-email"
 	},
